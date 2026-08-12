@@ -32,6 +32,17 @@ Update database credentials in `JdbcUtil.java` before running the application.
 ## Build
 From the project root (Windows):
 
+Using wrapper:
+```
+./mvnw.cmd clean package
+```
+Or with local Maven:
+```
+mvn clean package
+```
+
+A WAR will be produced in `target/` named like `RegistrationApplication-1.0-SNAPSHOT.war`.
+
 ## Deploy
 - Copy the generated WAR to your servlet container's `webapps/` (e.g., Tomcat) and start the server.
 - Visit: `http://localhost:8080/RegistrationApplication/` (or the context path used by your container).
