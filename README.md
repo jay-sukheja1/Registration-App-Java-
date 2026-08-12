@@ -53,10 +53,3 @@ Alternatively, install an embedded runner or use your IDE to deploy the WAR.
 
 ## Tests
 No automated tests included. The pom contains JUnit dependencies (JUnit 5) in case you add unit tests.
-
-## Contributing
-- Fork the repo, create a feature branch, open a PR.
-- Update README if you change configuration or behavior.
-
-## Contact
-For questions, open an issue or contact the repository owner.
